@@ -1,3 +1,4 @@
 .vscode
 poetry.lock
 responses.log
+**\**\__pycache__
