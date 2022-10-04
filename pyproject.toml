@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["canaldkz <canald000@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.79.1"
+uvicorn = "^0.18.2"
+requests = "^2.28.1"
+slimit = "^0.8.1"
+pyjsparser = "^2.7.1"
+pydantic = "^1.9.2"
+Scrapy = "^2.6.2"
+ravendb = "5.2.0b3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
